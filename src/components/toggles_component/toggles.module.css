@@ -1,8 +1,25 @@
 .togglesFormStyle{
-    position: absolute;
 border: solid;
-display: table;
 margin: 5px;
 border-color: gray;
 border-width: thin;
+padding: 14px 10px;
+}
+.searchIcon{
+    margin-right: 14px;
+}
+.searchBtn{
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    width: 100%;
+}
+@media only screen and (min-width:768px){
+    .togglesFormStyle{
+        position: absolute;
+        right: 0;
+        margin: 30px;
+        width: 46%;
+    }
 }
