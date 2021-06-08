@@ -2,3 +2,49 @@
     display: contents;
     font-size: 12px;
 }
+.jobDescription{
+    /* display: flex; */
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.imgStyle{
+    width: 50px;
+}
+h6{
+    margin: 0;
+}
+.jobName{
+    /* margin-top: 10px; */
+}
+.jobInfo{
+    display: flex;
+}
+.loc_hours{
+    font-size: 10px;
+    right: 50px;
+    position: absolute;
+}
+.jobTypeDefault{
+    background-color: turquoise;
+    display: inline-block;
+    border-color: turquoise;
+    border-style: double;
+}
+.jobTypeINTERN{
+    background-color: red;
+    display: inline-block;
+    border-color: red;
+    border-style: double;
+}
+.jobTypePART{
+    background-color: yellow;
+    display: inline-block;
+    border-color: yellow;
+    border-style: double;
+}
+.jobTypeTEMP{
+    background-color: greenyellow;
+    display: inline-block;
+    border-color: greenyellow;
+    border-style: double;
+}
