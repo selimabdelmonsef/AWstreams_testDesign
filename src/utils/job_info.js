@@ -38,5 +38,6 @@ export const jobInfo = [
         job_type: "FREELANCE",
         img:`${pepsi}`,
     },
+    
 
 ]

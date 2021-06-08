@@ -1,6 +1,9 @@
 .tabList{
-    display: contents;
+    display: inline-block;
     font-size: 12px;
+    background-color: lightgray;
+    margin: 0px;
+    
 }
 .jobDescription{
     /* display: flex; */
@@ -13,13 +16,11 @@
 h6{
     margin: 0;
 }
-.jobName{
-    /* margin-top: 10px; */
-}
+
 .jobInfo{
     display: flex;
 }
-.loc_hours{
+.loc{
     font-size: 10px;
     right: 50px;
     position: absolute;
@@ -47,4 +48,31 @@ h6{
     display: inline-block;
     border-color: greenyellow;
     border-style: double;
+}
+@media only screen and (min-width:768px){
+    .jobDescription{
+    display: flex;
+    margin-bottom: 30px;
+    }
+    .loc{
+        font-size: 14px;
+        right: unset;
+        position: absolute;
+        padding-left: 300px;
+    }
+    .jobName{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .tabsContentStyle{
+        position: absolute;
+    border: solid;
+    display: table;
+    margin: 25px;
+    border-color: gray;
+    border-width: thin;
+    }
+    .imgStyle{
+        height: 50px;
+    }
 }

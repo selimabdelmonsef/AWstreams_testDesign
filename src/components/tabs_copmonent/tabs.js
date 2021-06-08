@@ -7,7 +7,7 @@ import { AiOutlineClockCircle, MdLocationOn } from 'react-icons/all'
 
 export default function FindJobTabs() {
     return (
-        <Tabs >
+        <Tabs className={styles.tabsContentStyle}>
             <TabList className={styles.tabList}>
                 <Tab>All JOBS</Tab>
                 <Tab>FULL TIME</Tab>
@@ -18,32 +18,37 @@ export default function FindJobTabs() {
             </TabList>
             <TabPanel>
                 {jobInfo.map((element) => {
-                    return <div className={styles.jobDescription}>
+                   return  <div>
+                    <div className={styles.jobDescription}>
                         <img className={styles.imgStyle} src={element.img} alt="" />
                         <div className={styles.jobInfo}>
                             <div className={styles.jobName}>
                                 <h6>{element.title}</h6>
                                 <h6>{element.company}</h6>
-                                {element.job_type === "TEMPORARY" ?
-                                    <h6 className={styles.jobTypeTEMP}>{element.job_type}</h6>
-                                    :
-                                    element.job_type === "INTERNSHIP" ?
-                                        <h6 className={styles.jobTypeINTERN}>{element.job_type}</h6>
-                                        :
-                                        element.job_type === "PART TIME" ?
-                                            <h6 className={styles.jobTypePART}>{element.job_type}</h6>
-                                            :
-                                            <h6 className={styles.jobTypeDefault}>{element.job_type}</h6>
-                                }
-
-                            </div>
-                            <div className={styles.loc_hours}>
-                                <MdLocationOn /> {element.location}
                                 <div>
+                                    {element.job_type === "TEMPORARY" ?
+                                        <h6 className={styles.jobTypeTEMP}>{element.job_type}</h6>
+                                        :
+                                        element.job_type === "INTERNSHIP" ?
+                                            <h6 className={styles.jobTypeINTERN}>{element.job_type}</h6>
+                                            :
+                                            element.job_type === "PART TIME" ?
+                                                <h6 className={styles.jobTypePART}>{element.job_type}</h6>
+                                                :
+                                                <h6 className={styles.jobTypeDefault}>{element.job_type}</h6>
+                                    }
+                                </div>
+                            </div>
+                            <div className={styles.loc}>
+                                <MdLocationOn /> {element.location}
+                                <div className={styles.hours}>
                                     <AiOutlineClockCircle /> {element.submitted_hours}</div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
+                    <hr/>
+                    </div>
+                    
                 })}
             </TabPanel>
             <TabPanel>
