@@ -2,7 +2,7 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import styles from './tabs.module.css'
-import { jobInfo } from '../../utils/job_info'
+import { jobInfo } from '../../constants/job_info_constant'
 import { AiOutlineClockCircle, MdLocationOn } from 'react-icons/all'
 
 export default function FindJobTabs() {
@@ -55,7 +55,7 @@ export default function FindJobTabs() {
                 <h2>Any content 2</h2>
             </TabPanel>
             <TabPanel>
-                <h2>SS</h2>
+                <h2>Any Content 3</h2>
             </TabPanel>
         </Tabs>
     )
