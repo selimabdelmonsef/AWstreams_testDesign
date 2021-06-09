@@ -31,9 +31,8 @@
     }
     @media only screen and (min-width:768px){
 .jobSliderContent{
-    position: absolute;
-    width: 34%;
+    width: 50%;
     right: 17%;
-    margin-top: 405px;
+    margin-left: 18px;
 }
     }

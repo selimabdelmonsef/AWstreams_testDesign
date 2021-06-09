@@ -11,11 +11,9 @@ export default class LandingPage extends React.Component {
          <div>
              <div className={styles.tabsTogglingWrap}>
              <FindJobTabs></FindJobTabs>
-
              <TogglingForm></TogglingForm>
-             <FeatureJobSlider></FeatureJobSlider>
              </div>
-             
+             <FeatureJobSlider></FeatureJobSlider>
              <CandidatesCarousel></CandidatesCarousel>
              </div>
         )
