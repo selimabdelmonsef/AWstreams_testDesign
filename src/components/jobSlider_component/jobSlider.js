@@ -14,7 +14,7 @@ export default class FeatureJobSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div className={styles.jobSliderContent}>
         <h2> Featured Jobs</h2>
         <Slider {...settings} className={styles.FeatureJobSlider}>
           {featured_jobs.map((element)=>{

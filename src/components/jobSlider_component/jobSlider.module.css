@@ -26,3 +26,11 @@
         font-size: 16px;
         margin-left: 10px;
     }
+    @media only screen and (min-width:768px){
+.jobSliderContent{
+    position: absolute;
+    width: 34%;
+    right: 15%;
+    margin-top: 393px;
+}
+    }
