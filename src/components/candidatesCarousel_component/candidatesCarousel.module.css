@@ -1,0 +1,16 @@
+.candidateStyle{
+    margin: 40px;
+}
+.candidateName{
+    text-align: -webkit-center;
+    padding-top: 7px;
+}
+.candidatesTitle{
+    text-align-last: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.jobTitleStyle{
+    color: gray;
+}

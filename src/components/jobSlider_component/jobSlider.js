@@ -15,7 +15,7 @@ export default class FeatureJobSlider extends Component {
     };
     return (
       <div className={styles.jobSliderContent}>
-        <h2> Featured Jobs</h2>
+        <h2 className={styles.featuredJobText}> Featured Jobs</h2>
         <Slider {...settings} className={styles.FeatureJobSlider}>
           {featured_jobs.map((element)=>{
             return <div>

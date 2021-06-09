@@ -18,6 +18,9 @@
     .jobDescription{
         margin-top: 20px;
     }
+    .featuredJobText{
+        margin-left: 10px;
+    }
     .applyBtn{
         background-color: blue; /* Green */
         border: none;
@@ -30,7 +33,7 @@
 .jobSliderContent{
     position: absolute;
     width: 34%;
-    right: 15%;
+    right: 14%;
     margin-top: 393px;
 }
     }
