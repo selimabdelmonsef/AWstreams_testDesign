@@ -22,7 +22,7 @@
         margin-left: 10px;
     }
     .applyBtn{
-        background-color: blue; /* Green */
+        background-color: blue;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -33,7 +33,7 @@
 .jobSliderContent{
     position: absolute;
     width: 34%;
-    right: 14%;
-    margin-top: 393px;
+    right: 100px;
+    margin-top: 405px;
 }
     }

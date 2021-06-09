@@ -6,7 +6,6 @@
     
 }
 .jobDescription{
-    /* display: flex; */
     margin-top: 35px;
     margin-left: 15px;
 }
@@ -57,7 +56,6 @@ h6{
     .loc{
         font-size: 14px;
         right: unset;
-        position: absolute;
         padding-left: 300px;
     }
     .jobName{
@@ -65,7 +63,6 @@ h6{
         margin-left: 10px;
     }
     .tabsContentStyle{
-        position: absolute;
     border: solid;
     display: table;
     margin: 25px;

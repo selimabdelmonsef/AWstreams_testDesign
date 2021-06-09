@@ -1,5 +1,5 @@
 .candidateStyle{
-    margin: 40px;
+    margin: 50px;
 }
 .candidateName{
     text-align: -webkit-center;
@@ -14,3 +14,13 @@
 .jobTitleStyle{
     color: gray;
 }
+.cadiImage{
+    width: 100%;
+}
+@media only screen and (min-width:768px){
+    .candiCarouselStyle{
+    margin-top: 25%;
+    }
+ 
+}
+  

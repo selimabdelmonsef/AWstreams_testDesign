@@ -17,9 +17,7 @@ padding: 14px 10px;
 }
 @media only screen and (min-width:768px){
     .togglesFormStyle{
-        position: absolute;
-        right: 0;
-        margin: 30px;
-        width: 46%;
+    width: 152%;
+    margin: 53px;
     }
 }
